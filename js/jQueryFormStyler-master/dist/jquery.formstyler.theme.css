@@ -1,0 +1,119 @@
+.jq-selectbox {
+	vertical-align: middle;
+	cursor: pointer;
+}
+.jq-selectbox__select {
+	height: 32px;
+	padding: 0 45px 0 10px;
+	border-radius: 4px;
+	font: 14px/32px Arial, sans-serif;
+}
+.jq-selectbox__select-text {
+	display: block;
+	width: 100%;
+}
+.jq-selectbox__trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 34px;
+	height: 100%;
+}
+.jq-selectbox__trigger-arrow {
+	position: absolute;
+	top: 14px;
+	right: 12px;
+	width: 0;
+	height: 0;
+}
+.jq-selectbox__dropdown {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 2px 0 0;
+	padding: 0;
+	font: 14px/18px Arial, sans-serif;
+}
+.jq-selectbox__search {
+	margin: 5px;
+}
+.jq-selectbox__search input {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding: 5px 27px 6px 8px;
+
+	border-radius: 3px;
+	outline: none;
+
+}
+.jq-selectbox__not-found {
+	margin: 5px;
+	padding: 5px 8px 6px;
+	font-size: 13px;
+}
+.jq-selectbox ul {
+	margin: 0;
+	padding: 0;
+}
+.jq-selectbox li {
+	min-height: 18px;
+	padding: 5px 10px 6px;
+}
+.jq-selectbox li.disabled:hover {
+	background: none;
+}
+.jq-selectbox li.optgroup {
+	font-weight: bold;
+}
+.jq-selectbox li.optgroup:hover {
+	background: none;
+	cursor: default;
+}
+.jq-selectbox li.option {
+	padding-left: 25px;
+}
+.jq-select-multiple {
+	box-sizing: border-box;
+	padding: 1px;
+	font: 14px/18px Arial, sans-serif;
+	color: #333;
+	cursor: default;
+}
+.jq-select-multiple.disabled {
+	border-color: #CCC;
+	background: #F5F5F5;
+	box-shadow: none;
+	color: #888;
+}
+.jq-select-multiple ul {
+	margin: 0;
+	padding: 0;
+}
+.jq-select-multiple li {
+	padding: 3px 9px 4px;
+	list-style: none;
+}
+.jq-select-multiple li:first-child {
+	border-radius: 3px 3px 0 0;
+}
+.jq-select-multiple li:last-child {
+	border-radius: 0 0 3px 3px;
+}
+.jq-select-multiple li.selected {
+	background: #08C;
+	color: #FFF;
+}
+.jq-select-multiple li.disabled {
+	color: #AAA;
+}
+.jq-select-multiple li.optgroup {
+	font-weight: bold;
+}
+.jq-select-multiple li.option {
+	padding-left: 25px;
+}
+.jq-select-multiple.disabled li.selected,
+.jq-select-multiple li.selected.disabled {
+	background: #CCC;
+	color: #FFF;
+}
